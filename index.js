@@ -1,9 +1,5 @@
-
 const { AoiClient, LoadCommands, Util } = require("aoi.js");
 const { token, prefix, intents, events } = require('./config.json')
-
-
-
 const bot = new AoiClient({
     token,
     prefix,
@@ -23,9 +19,7 @@ const bot = new AoiClient({
 
 const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./komutlar/")
-
 bot.variables(require(`./variable.js`))
- 
 loader.setColors({
   walking: ["blink", "dim", "fgBlue"],
   failedWalking: {
@@ -51,7 +45,7 @@ loader.setColors({
  
 })
 
-
+/* Star CodeShare */
 
 
 // DURUM
