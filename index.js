@@ -24,7 +24,6 @@ loader.setColors({
   walking: ["blink", "dim", "fgBlue"],
   failedWalking: {
     name: ["bright", "fgRed", "underline"],
- 
     text: ["bright", "fgRed"]
   },
   typeError: {
@@ -42,18 +41,12 @@ loader.setColors({
     type: ["bright", "fgBlue"],
     text: ["bright", "fgGreen"]
   },
- 
 })
-
 /* Star CodeShare */
-
-
-// DURUM
-
+/*Durum*/
 bot.status({
 	name:"discord.gg/aoijs - Star CodeShare",
 	time: 10,
 	status: "dnd",
 	type:"PLAYING"
 })
-
